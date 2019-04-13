@@ -1,0 +1,4 @@
+include ':app'
+include ':baselib'
+
+project(':baselib').projectDir=new File("../TestBase", 'baselib')
